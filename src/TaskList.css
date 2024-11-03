@@ -1,0 +1,13 @@
+.task-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .task-list {
+      padding: 0 10px; /* Add padding on small screens */
+    }
+  }
+  
